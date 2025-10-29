@@ -1,0 +1,232 @@
+.legends-page {
+  min-height: 100vh;
+}
+
+.filter-section {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+  text-align: center;
+}
+
+.filter-section label {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  display: block;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: var(--color-bg-dark);
+  color: var(--color-text-secondary);
+  border: 2px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.filter-btn.active {
+  background: var(--color-primary);
+  color: var(--color-bg-dark);
+  border-color: var(--color-primary);
+}
+
+.legends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.legend-card {
+  overflow: hidden;
+}
+
+.legend-card.rarity-legendary {
+  border-color: #f59e0b;
+}
+
+.legend-card.rarity-legendary:hover {
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+}
+
+.legend-card.rarity-epic {
+  border-color: #8b5cf6;
+}
+
+.legend-card.rarity-epic:hover {
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+}
+
+.legend-card.rarity-rare {
+  border-color: #06b6d4;
+}
+
+.legend-card.rarity-rare:hover {
+  box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
+}
+
+.legend-image-placeholder {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(135deg, var(--color-bg-light), var(--color-bg-dark));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--spacing-md);
+  border-radius: 8px;
+}
+
+.legend-icon {
+  font-size: 4rem;
+  filter: grayscale(30%);
+}
+
+.legend-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.legend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+}
+
+.legend-header h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  flex: 1;
+}
+
+.legend-description {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.legend-stats {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background: var(--color-bg-dark);
+  border-radius: 8px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.stat-label {
+  font-family: var(--font-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  min-width: 70px;
+}
+
+.stat-value {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  color: var(--color-primary);
+  min-width: 30px;
+  text-align: right;
+}
+
+.stat-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--color-bg-card);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  transition: width 0.8s ease;
+  border-radius: 4px;
+}
+
+.stat-fill.attack {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+}
+
+.stat-fill.defense {
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+}
+
+.stat-fill.speed {
+  background: linear-gradient(90deg, #10b981, #059669);
+}
+
+.legend-abilities {
+  padding: var(--spacing-md);
+  background: var(--color-bg-dark);
+  border-radius: 8px;
+}
+
+.legend-abilities h4 {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.legend-abilities ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-abilities li {
+  padding: var(--spacing-xs) 0;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.legend-abilities li::before {
+  content: '⚡';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .legends-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+  }
+
+  .filter-btn {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Season 2 is Now Live!",
+    "category": "news",
+    "content": "The highly anticipated Season 2 has arrived with new legends, challenges, and rewards! Explore new maps, unlock exclusive skins, and compete in seasonal tournaments.",
+    "author": "Dalarnia Team",
+    "created_at": "2025-10-20T12:00:00",
+    "tags": ["season", "update"]
+  },
+  {
+    "id": 2,
+    "title": "Patch 1.3.0 Notes",
+    "category": "patch_notes",
+    "content": "Balance changes, bug fixes, and new features in this patch. We've adjusted several legends to improve gameplay balance and fixed critical bugs reported by the community.",
+    "author": "Dev Team",
+    "created_at": "2025-10-15T10:00:00",
+    "tags": ["patch", "balance"]
+  },
+  {
+    "id": 3,
+    "title": "Beginner's Guide to Dalarnia Legends",
+    "category": "guides",
+    "content": "Everything you need to know to start your journey in Dalarnia Legends. Learn about deck building, legend synergies, and basic strategies to dominate the battlefield.",
+    "author": "Community",
+    "created_at": "2025-10-10T15:30:00",
+    "tags": ["guide", "beginner"]
+  },
+  {
+    "id": 4,
+    "title": "Halloween Event Announcement",
+    "category": "events",
+    "content": "Get ready for our spooky Halloween event! Collect exclusive Halloween-themed legends and earn special rewards. Event runs from October 25th to November 5th.",
+    "author": "Event Team",
+    "created_at": "2025-10-24T18:00:00",
+    "tags": ["halloween", "event", "limited-time"]
+  },
+  {
+    "id": 5,
+    "title": "Новая легенда: Звездный Страж",
+    "category": "news",
+    "content": "Представляем новую легендарную карту - Звездный Страж! Этот могущественный защитник космоса обладает уникальными способностями контроля поля боя.",
+    "author": "Dalarnia Team",
+    "created_at": "2025-10-26T14:00:00",
+    "tags": ["legend", "new", "legendary"]
+  }
+]
+

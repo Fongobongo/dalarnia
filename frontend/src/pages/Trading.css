@@ -1,0 +1,55 @@
+.trading-page {
+  min-height: 100vh;
+}
+
+.trading-nav {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-md);
+  background: var(--color-bg-card);
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.trading-link {
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.trading-link:hover {
+  color: var(--color-primary);
+  background: rgba(245, 158, 11, 0.1);
+  border-color: var(--color-primary);
+}
+
+.trading-link.active {
+  color: var(--color-bg-dark);
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.trading-content {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+  .trading-nav {
+    flex-direction: column;
+  }
+
+  .trading-link {
+    text-align: center;
+  }
+}
+

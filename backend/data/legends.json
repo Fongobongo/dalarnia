@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Nexus Warrior",
+    "description": "A powerful warrior from the Nexus dimension",
+    "rarity": "Legendary",
+    "image_url": null,
+    "stats": {
+      "attack": 85,
+      "defense": 70,
+      "speed": 60
+    },
+    "abilities": ["Power Strike", "Shield Bash", "Battle Cry"]
+  },
+  {
+    "id": 2,
+    "name": "Stellar Mage",
+    "description": "Master of cosmic energy and stellar magic",
+    "rarity": "Epic",
+    "image_url": null,
+    "stats": {
+      "attack": 60,
+      "defense": 50,
+      "speed": 80
+    },
+    "abilities": ["Meteor Storm", "Star Shield", "Cosmic Beam"]
+  },
+  {
+    "id": 3,
+    "name": "Shadow Assassin",
+    "description": "Silent and deadly hunter of the void",
+    "rarity": "Epic",
+    "image_url": null,
+    "stats": {
+      "attack": 90,
+      "defense": 40,
+      "speed": 95
+    },
+    "abilities": ["Shadow Strike", "Vanish", "Critical Hit"]
+  },
+  {
+    "id": 4,
+    "name": "Crystal Guardian",
+    "description": "Ancient protector made of living crystal",
+    "rarity": "Rare",
+    "image_url": null,
+    "stats": {
+      "attack": 50,
+      "defense": 95,
+      "speed": 40
+    },
+    "abilities": ["Crystal Wall", "Reflect Damage", "Harden"]
+  },
+  {
+    "id": 5,
+    "name": "Fire Drake",
+    "description": "Dragon of eternal flames",
+    "rarity": "Legendary",
+    "image_url": null,
+    "stats": {
+      "attack": 95,
+      "defense": 60,
+      "speed": 70
+    },
+    "abilities": ["Inferno Breath", "Wing Blast", "Phoenix Rise"]
+  }
+]
+
